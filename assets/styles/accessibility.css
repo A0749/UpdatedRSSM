@@ -1,0 +1,54 @@
+/* Accessibility Container */
+.accessibility-container {
+    position: fixed;
+    bottom: 45vh;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+#accessibility-toggle {
+    background-color: var(--color-primary);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color var(--transition-duration);
+}
+
+#accessibility-toggle:hover {
+    background-color: var(--color-secondary);
+}
+
+/* Accessibility Options */
+.accessibility-options {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    background-color: #fff;
+    padding: var(--spacing-unit);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    gap: 1rem;
+}
+
+.accessibility-options button {
+    background-color: var(--color-primary);
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color var(--transition-duration);
+}
+
+.accessibility-options button:hover {
+    background-color: var(--color-secondary);
+}

@@ -1,0 +1,32 @@
+/* Root Variables */
+:root {
+    --font-size-base: 1rem; /* Default 16px */
+    --font-size-small: calc(var(--font-size-base) * 0.875);
+    --font-size-medium: calc(var(--font-size-base) * 1.25);
+    --font-size-large: calc(var(--font-size-base) * 1.75);
+    --font-size-xl: calc(var(--font-size-base) * 2);
+
+    
+
+    --spacing-unit: 1rem;
+    --spacing-large: 2rem;
+
+    --color-primary: #3498db;
+    --color-secondary: #2ecc71;
+    --color-background: #e3e3e3;
+    --color-text: #000;
+    --color-background-dark: #000;
+    --color-text-dark: #e3e3e3;
+
+    --border-radius: 0.5rem;
+    --transition-duration: 0.3s;
+}
+
+/* Dark Theme */
+body.light-theme {
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+body.light-theme a{
+    color: var(--color-text);
+}

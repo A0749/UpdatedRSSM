@@ -1,0 +1,136 @@
+/* Header */
+.main-header {
+    background-color: #fff;
+    color: var(--color-text);
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.header-content{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 8vh;
+    width: 98vw;
+}
+.header-content div{
+    height: 100%;
+    
+}
+.header-content .tribal-museum-title{
+    height: 8vh;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+.header-content .tribal-museum-title p{
+    font-size: var(--font-size-medium);
+    line-height: 100%;
+    white-space: pre; 
+    word-spacing: 0.2rem;
+    letter-spacing: 0.1rem;    
+}
+.tribal-state-logo{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+.tribal-state-logo img{
+    height: 85%;
+}
+.banner{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 98vw;
+    padding: 0.5rem 0;
+    height: 80vh;
+}
+/* Container Styling */
+.banner-title {
+    width: 77vw;
+    
+}
+.banner-title h1 {
+    font-size: 12rem;
+    font-family: "Jockey", sans-serif;
+    line-height: 90%;
+    text-transform: uppercase;
+    color: transparent; /* Makes text transparent */
+    background: url('../images/randomImage.jpg') no-repeat ; /* GIF as background */
+    background-size: cover;
+    -webkit-background-clip: text; /* Clip the background to text */
+    background-clip: text;
+    -webkit-text-fill-color: transparent; /* Ensures the GIF shows through text */
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5rem;
+}
+
+.banner-right{
+    height: 100%;
+    width: 23vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-right .banner-pm .author {
+    text-align: right;
+    padding: 1rem 0;
+}
+.banner-right .banner-logo{
+    width: 60%;
+}
+
+.main-footer{
+    font-family: 'Dosis';
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 12vh;
+    align-items: center;
+    
+
+}
+.main-footer .footer-content ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98vw;
+}
+.main-footer .footer-content ul li{
+    list-style-type: none;
+}
+.main-footer .footer-content ul li a{
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+    font-size: var(--font-size-large);
+    text-transform: uppercase;
+    color: var(--color-text-dark);
+}
+.main-footer .footer-content ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+p, span{
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+    font-family: 'Inter';
+    font-weight: 100;
+}
